@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #252542);
+    position: relative;
+    padding-top: 100px;
+    height: 100px;
+    margin-top: 50px;
+
+    
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    text-align: center;
+    position: relative;
+}
+h1{
+   color: #00ff99;
+
+}
+
+.circle{
+    border: none;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background: conic-gradient(#00ff99 0deg, #222 0deg);
+    box-shadow: 0 10px 30px rgba(0, 255, 153, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.timer{
+    
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.start{
+    font-size: 1em;
+    padding: 10px 15px;
+    margin: 5px;
+    border:none;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background: #28a745; 
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    margin-left: 35px;
+   
+   
+
+
+}
+
+.stop{
+    font-size: 1em;
+    padding: 10px 15px;
+    margin: 5px;
+    border:none;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background: #dc3545;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.reset{
+   font-size: 1em;
+   padding: 10px 15px;
+   margin: 5px;
+   border:none;
+   border-radius: 40px;
+   width: 100px;
+   height: 50px;
+   color: white;
+   background: #007bff;
+   transition: 0.3s ease-in-out;
+   backdrop-filter: blur(10px);
+   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+   cursor: pointer;
+
+}
+button:hover {
+     transform: scale(1.1);
+     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+ }
+ 
