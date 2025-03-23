@@ -12,7 +12,7 @@
         function startTimer() {
             if (!running) {
                 startTime = new Date().getTime() - (difference || 0);
-                interval = setInterval(updateTime, 10);
+                interval = setInterval(updateTime,150);
                 running = true;
             }
         }
@@ -33,7 +33,7 @@
             updatedTime = new Date().getTime();
             difference = updatedTime - startTime;
 
-            let milliseconds = Math.floor((difference % 1000) / 10);
+            let milliseconds = Math.floor((difference % 1000) / 150);
             let seconds = Math.floor((difference / 1000) % 60);
             let minutes = Math.floor((difference / (1000 * 60)) % 60);
 
